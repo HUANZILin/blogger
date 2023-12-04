@@ -8,6 +8,6 @@ jobs:
       uses: appleboy/jenkins-action@master
       with:
         url: "https://jenkins.sdpmlab.org/"
-        user: "sdpmlab"
-        token: ${{secrets.TOKEN}}
-        job: "bl"
+        user: "LIN KAI JUNG"
+        token: ${{1179661667a268d70e9c8fa582d1566a56}}
+        job: "410977006"
