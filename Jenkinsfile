@@ -1,7 +1,7 @@
 pipeline {
     agent {
         node {
-            label '611177209'
+            label '410977006'
         }
     }
     options {
