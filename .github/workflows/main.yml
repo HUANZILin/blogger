@@ -4,10 +4,10 @@ jobs:
     name: Trigger
     runs-on: ubuntu-latest
     steps:
-    - name: trigger job
-      uses: appleboy/jenkins-action@master
-      with:
-        url: "https://jenkins.sdpmlab.org/"
-        user: "sdpmlab"
-        token: ${{secrets.TOKEN}}
-        job: "bl"
+      - name: trigger Jenkins pipeline job
+        uses: appleboy/jenkins-action@master
+        with:
+          url: "https://jenkins.sdpmlab.org/"
+          user: "LIN KAI JUNG"
+          token: ${{secret.TOKEN}}
+          job: "410977006"
