@@ -128,6 +128,3 @@ app//.phpunit.*.cache
 # CS-Fixer
 app/.php-cs-fixer.cache
 app/.phpunit.result.cache
-
-# GitHub Actions token
-secret.yml
